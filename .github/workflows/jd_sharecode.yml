@@ -23,7 +23,7 @@ jobs:
           cd ~/Actions/.github
           chmod +x jd_sharecodes.sh
           ./jd_sharecodes.sh
-          git clone -b master https://github.com/lxk0301/jd_scripts.git ~/scripts
+          git clone -b master https://github.com/slj844909754/slj.git ~/scripts
           cd  ~/scripts
           npm install
           node jd_get_share_code.js
