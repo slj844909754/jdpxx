@@ -46,5 +46,5 @@ jobs:
                   QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-                  SYNCURL: https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_redpocke.js
+                  SYNCURL: https://raw.githubusercontent.com/slj844909754/jd_scripts/master/jd_speed_redpocke.js
                   JD_COOKIE_FORBID: 1
