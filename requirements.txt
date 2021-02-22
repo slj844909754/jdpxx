@@ -1,0 +1,5 @@
+requests
+rsa
+python-dateutil
+pysocks
+telethon
