@@ -32,7 +32,7 @@ jobs:
       - name: '运行 【jd_fanslove】'
         if: env.JD_COOKIE
         run: |
-          cd ~/slj844909754/jd_scripts
+          cd ~jd_scripts
           node jd_fanslove.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
