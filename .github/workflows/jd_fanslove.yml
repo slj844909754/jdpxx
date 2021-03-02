@@ -7,7 +7,7 @@ on:
     workflow_dispatch:
     schedule:
         - cron: "23 2,7,14 * * *"
-    watch:jd_fanslove.yml
+    watch:
         types: [started]
     repository_dispatch:
         types: jd_fanslove
